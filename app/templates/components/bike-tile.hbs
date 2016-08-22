@@ -1,0 +1,11 @@
+<!-- {{#link-to 'bike' bike.id}}
+<h1>{{bike.make}}{{bike.model}} for {{bike.cost}}</h1> {{/link-to}} -->
+
+<ul>
+  <p>
+    bike tile
+  </p>
+  {{#each firstThreBikes as |bike|}}
+  {{#link-to 'bike' bike.id}} <h2>{{cool-bike bike}} {{bike.make}} {{bike.model}}</h2><p>Price: ${{bike.cost}}</p>{{/link-to}}
+  {{/each}}
+</ul>

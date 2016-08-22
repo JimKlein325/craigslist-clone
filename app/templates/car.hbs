@@ -1,0 +1,7 @@
+<h1>Page for Bikes</h1>
+{{car-detail car=model.car destroyBike="destroyBike"}}
+<br>
+{{#each model as |car|}}
+  {{car-tile car=car}}
+{{/each}}
+<br>

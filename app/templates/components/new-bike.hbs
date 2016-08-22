@@ -1,0 +1,34 @@
+{{#if addNewBike}}
+  <h1>Put a bike up for sale</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="make">make</label>
+          {{input value=make id="make"}}
+        </div>
+
+        <div class="form-group">
+          <label for="model">model</label>
+          {{input value=model id="model"}}
+        </div>
+
+        <div class="form-group">
+          <label for="cost">cost</label>
+          {{input value=cost id="cost"}}
+        </div>
+
+        <div class="form-group">
+          <label for="condition">condition</label>
+          {{input value=condition id="condition"}}
+        </div>
+
+        <div class="form-group">
+          <label for="year">year</label>
+          {{input value=year id="year"}}
+        </div>
+        <button {{action 'save'}}>Save</button>
+      </form>
+    </div>
+{{else}}
+    <p>Put a new bike up for sale by clicking the button below</p><button {{action 'bikeFormShow'}} class="btn btn-success btn-lg">New Question</button>
+{{/if}}

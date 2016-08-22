@@ -1,0 +1,38 @@
+{"items" : [
+  {
+  "make": "Trek",
+  "condition": "Good",
+  "model": "7300",
+  "year": "1988",
+  "cost": "250"
+},
+{
+"make": "Cannondale",
+"condition": "Good",
+"model": "7300",
+"year": "1988",
+"cost": "250"
+},
+{
+"make": "Raleigh",
+"condition": "Good",
+"model": "7300",
+"year": "1988",
+"cost": "250"
+},
+{
+"make": "Trek",
+"condition": "Good",
+"model": "2300",
+"year": "1988",
+"cost": "250"
+},
+{
+"make": "Trek",
+"condition": "Good",
+"model": "1300",
+"year": "1988",
+"cost": "250"
+}
+]
+}

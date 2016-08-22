@@ -1,0 +1,51 @@
+{"bikes" : [
+  {
+  "make": "Trek",
+  "condition": "Good",
+  "model": "7300",
+  "year": "1988",
+  "cost": 100
+},
+{
+"make": "Cannondale",
+"condition": "Good",
+"model": "7300",
+"year": "1988",
+"cost": 750
+},
+{
+"make": "Raleigh",
+"condition": "Good",
+"model": "7300",
+"year": "1988",
+"cost": 250
+},
+{
+"make": "Trek",
+"condition": "Good",
+"model": "2300",
+"year": "1988",
+"cost": 2250
+},
+{
+"make": "Trek",
+"condition": "Good",
+"model": "1300",
+"year": "1988",
+"cost": 50
+}],
+
+"cars": [{
+  "make": "Toyota",
+  "condition": "Good",
+  "model": "Yaris",
+  "year": "2004",
+  "cost": 20000
+  }, {
+  "make": "Toyota",
+  "condition": "Good",
+  "model": "Yaris",
+  "year": "2004",
+  "cost": 20000
+  }]
+}

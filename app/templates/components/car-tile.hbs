@@ -1,0 +1,9 @@
+<ul>
+  <p>
+    car tile
+  </p>
+  {{#each firstThreCars as |car|}}
+  <p> hi hi </p>
+  {{#link-to 'car' car.id}} <h2>{{cool-car car}} {{car.make}} {{car.model}}</h2><p>Price: ${{car.cost}}</p>{{/link-to}}
+  {{/each}}
+</ul>
